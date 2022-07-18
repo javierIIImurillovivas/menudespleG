@@ -99,6 +99,25 @@ body{
     width: 36px;
 }
 
+.flex-footer {
+    display: flex;
+    font-size: 18px;
+    color:red;
+    background-color: aquamarine;
+    padding: 10px;
+    border: 10px solid #000;
+    
+}
+
+.flex-footer p{
+    width: 100%;
+    margin: 15px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 18px;
+
+}
+
 @media (max-width:800px){
     .menu_hamburguer{
         display: flex;
